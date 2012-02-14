@@ -2,13 +2,14 @@ from setuptools import setup
 
 setup(
     name = 'exc',
-    version = '0.9',
-    py_modules = ['exc'],
+    version = '0.91',
+    packages = ['exc'],
     
     # Metadata
     author = 'Olivier Breuleux',
     author_email = 'olivier@breuleux.net',
     url = 'https://github.com/breuleux/exc',
+    download_url = 'https://github.com/downloads/breuleux/exc/exc.tar.gz',
     license = 'BSD',
 
     description = 'Easy on-the-fly exception subclassing.',
