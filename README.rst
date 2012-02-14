@@ -1,8 +1,4 @@
 
-======
-README
-======
-
 The exc package
 ===============
 
@@ -36,4 +32,20 @@ There are wrapped versions of all the builtins: ``exc.TypeError``,
 The intended usage of ``exc`` is for each exception site to raise an
 exception with a unique class, so that they may be caught
 individually.
+
+
+Shorthand syntax
+================
+
+``exc.Exception['a/b'] == exc.Exception.specialize('a/b') == exc.Exception.specialize('a').specialize('b')``
+
+Compatibility
+=============
+
+``exc`` should work with Python >= 2.6 and Python >= 3. It does not
+work in Python 2.4 because of limitations on exception types. In
+Python 3, try/except does not consult instancehook or subclasshook, so
+``exc.Exception`` cannot be used to catch plain ``Exception`` (but it
+can be in Python 2).
+
 
