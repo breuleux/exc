@@ -1,3 +1,9 @@
+DeprecationWarning
+==================
+
+This package has been migrated to meta_exc on PyPI and will no longer be pip 
+installable through ``pip install exc`` after 2019-06-17. Please update your codebase
+to use ``pip install meta_exc``.
 
 The exc package
 ===============

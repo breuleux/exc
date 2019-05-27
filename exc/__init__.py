@@ -1,8 +1,11 @@
+import warnings
 
 try:
     import builtins
 except ImportError:
     import __builtin__ as builtins
+
+warnings.warn("Package migrated to meta_exc", DeprecationWarning)
 
 
 class DerivableException(type):

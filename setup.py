@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = 'exc',
-    version = '0.91',
+    version = '0.92',
     packages = ['exc'],
     
     # Metadata
