@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name = 'exc',
+    name = 'meta_exc',
     version = '0.91',
-    packages = ['exc'],
+    packages = ['meta_exc'],
     
     # Metadata
     author = 'Olivier Breuleux',
