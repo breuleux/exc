@@ -6,8 +6,8 @@ migration to ``meta_exc``. It will no longer be available to be installed via
 ``pip install exc`` after 2019-06-17. Please update your codebase to use 
 ``pip install meta_exc``.
 
-The exc package
-===============
+The meta_exc package
+====================
 
 The ``meta_exc`` package provides a metaclass for exceptions, allowing
 on-the-spot subclassing, e.g. in order to have one exception class per
